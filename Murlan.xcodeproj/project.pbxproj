@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBD0C41D1DEF2122004963B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C41C1DEF2122004963B5 /* AppDelegate.swift */; };
+		FBD0C41F1DEF2122004963B5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C41E1DEF2122004963B5 /* GameScene.sks */; };
+		FBD0C4211DEF2122004963B5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C4201DEF2122004963B5 /* Actions.sks */; };
+		FBD0C4231DEF2122004963B5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C4221DEF2122004963B5 /* GameScene.swift */; };
+		FBD0C4251DEF2122004963B5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C4241DEF2122004963B5 /* GameViewController.swift */; };
+		FBD0C4281DEF2122004963B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C4261DEF2122004963B5 /* Main.storyboard */; };
+		FBD0C42A1DEF2122004963B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C4291DEF2122004963B5 /* Assets.xcassets */; };
+		FBD0C42D1DEF2122004963B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C42B1DEF2122004963B5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBD0C4191DEF2122004963B5 /* Murlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Murlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD0C41C1DEF2122004963B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBD0C41E1DEF2122004963B5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FBD0C4201DEF2122004963B5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FBD0C4221DEF2122004963B5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FBD0C4241DEF2122004963B5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FBD0C4271DEF2122004963B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBD0C4291DEF2122004963B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBD0C42C1DEF2122004963B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBD0C42E1DEF2122004963B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD0C4161DEF2122004963B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD0C4101DEF2121004963B5 = {
+			isa = PBXGroup;
+			children = (
+				FBD0C41B1DEF2122004963B5 /* Murlan */,
+				FBD0C41A1DEF2122004963B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD0C41A1DEF2122004963B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD0C4191DEF2122004963B5 /* Murlan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD0C41B1DEF2122004963B5 /* Murlan */ = {
+			isa = PBXGroup;
+			children = (
+				FBD0C41C1DEF2122004963B5 /* AppDelegate.swift */,
+				FBD0C41E1DEF2122004963B5 /* GameScene.sks */,
+				FBD0C4201DEF2122004963B5 /* Actions.sks */,
+				FBD0C4221DEF2122004963B5 /* GameScene.swift */,
+				FBD0C4241DEF2122004963B5 /* GameViewController.swift */,
+				FBD0C4261DEF2122004963B5 /* Main.storyboard */,
+				FBD0C4291DEF2122004963B5 /* Assets.xcassets */,
+				FBD0C42B1DEF2122004963B5 /* LaunchScreen.storyboard */,
+				FBD0C42E1DEF2122004963B5 /* Info.plist */,
+			);
+			path = Murlan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD0C4181DEF2122004963B5 /* Murlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD0C4311DEF2122004963B5 /* Build configuration list for PBXNativeTarget "Murlan" */;
+			buildPhases = (
+				FBD0C4151DEF2122004963B5 /* Sources */,
+				FBD0C4161DEF2122004963B5 /* Frameworks */,
+				FBD0C4171DEF2122004963B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Murlan;
+			productName = Murlan;
+			productReference = FBD0C4191DEF2122004963B5 /* Murlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD0C4111DEF2122004963B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Er;
+				TargetAttributes = {
+					FBD0C4181DEF2122004963B5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FBD0C4141DEF2122004963B5 /* Build configuration list for PBXProject "Murlan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBD0C4101DEF2121004963B5;
+			productRefGroup = FBD0C41A1DEF2122004963B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD0C4181DEF2122004963B5 /* Murlan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD0C4171DEF2122004963B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD0C4281DEF2122004963B5 /* Main.storyboard in Resources */,
+				FBD0C41F1DEF2122004963B5 /* GameScene.sks in Resources */,
+				FBD0C42A1DEF2122004963B5 /* Assets.xcassets in Resources */,
+				FBD0C42D1DEF2122004963B5 /* LaunchScreen.storyboard in Resources */,
+				FBD0C4211DEF2122004963B5 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD0C4151DEF2122004963B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD0C4231DEF2122004963B5 /* GameScene.swift in Sources */,
+				FBD0C4251DEF2122004963B5 /* GameViewController.swift in Sources */,
+				FBD0C41D1DEF2122004963B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBD0C4261DEF2122004963B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD0C4271DEF2122004963B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBD0C42B1DEF2122004963B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD0C42C1DEF2122004963B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBD0C42F1DEF2122004963B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBD0C4301DEF2122004963B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD0C4321DEF2122004963B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Murlan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.Murlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FBD0C4331DEF2122004963B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Murlan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.Murlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD0C4141DEF2122004963B5 /* Build configuration list for PBXProject "Murlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD0C42F1DEF2122004963B5 /* Debug */,
+				FBD0C4301DEF2122004963B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD0C4311DEF2122004963B5 /* Build configuration list for PBXNativeTarget "Murlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD0C4321DEF2122004963B5 /* Debug */,
+				FBD0C4331DEF2122004963B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD0C4111DEF2122004963B5 /* Project object */;
+}
