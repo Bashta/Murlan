@@ -7,27 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FBD0C41D1DEF2122004963B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C41C1DEF2122004963B5 /* AppDelegate.swift */; };
-		FBD0C41F1DEF2122004963B5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C41E1DEF2122004963B5 /* GameScene.sks */; };
-		FBD0C4211DEF2122004963B5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C4201DEF2122004963B5 /* Actions.sks */; };
-		FBD0C4231DEF2122004963B5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C4221DEF2122004963B5 /* GameScene.swift */; };
-		FBD0C4251DEF2122004963B5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C4241DEF2122004963B5 /* GameViewController.swift */; };
-		FBD0C4281DEF2122004963B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C4261DEF2122004963B5 /* Main.storyboard */; };
-		FBD0C42A1DEF2122004963B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C4291DEF2122004963B5 /* Assets.xcassets */; };
-		FBD0C42D1DEF2122004963B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C42B1DEF2122004963B5 /* LaunchScreen.storyboard */; };
+		FBCDC95C1DF0340100FA057D /* MutableCollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95B1DF0340100FA057D /* MutableCollectionExtension.swift */; };
+		FBCDC95E1DF0349600FA057D /* SequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95D1DF0349600FA057D /* SequenceExtension.swift */; };
+		FBCDC9601DF392CE00FA057D /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95F1DF392CE00FA057D /* CGSizeExtension.swift */; };
+		FBCDC9621DF4BB7100FA057D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC9611DF4BB7100FA057D /* Player.swift */; };
+		FBCDC9641DF4CD9000FA057D /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC9631DF4CD9000FA057D /* ArrayExtension.swift */; };
+		FBD0C4471DEF2569004963B5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C4381DEF2569004963B5 /* GameViewController.swift */; };
+		FBD0C44A1DEF2569004963B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C43E1DEF2569004963B5 /* AppDelegate.swift */; };
+		FBD0C44B1DEF2569004963B5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C43F1DEF2569004963B5 /* Info.plist */; };
+		FBD0C44C1DEF2569004963B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C4411DEF2569004963B5 /* LaunchScreen.storyboard */; };
+		FBD0C44D1DEF2569004963B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C4431DEF2569004963B5 /* Main.storyboard */; };
+		FBD0C44F1DEF326B004963B5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C44E1DEF326B004963B5 /* Card.swift */; };
+		FBD0C4511DEF32B1004963B5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C4501DEF32B1004963B5 /* GameScene.swift */; };
+		FBD0C4531DEF32F7004963B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD0C4521DEF32F7004963B5 /* Assets.xcassets */; };
+		FBD0C4551DEF56E7004963B5 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0C4541DEF56E7004963B5 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FBCDC95B1DF0340100FA057D /* MutableCollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableCollectionExtension.swift; sourceTree = "<group>"; };
+		FBCDC95D1DF0349600FA057D /* SequenceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceExtension.swift; sourceTree = "<group>"; };
+		FBCDC95F1DF392CE00FA057D /* CGSizeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
+		FBCDC9611DF4BB7100FA057D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FBCDC9631DF4CD9000FA057D /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		FBD0C4191DEF2122004963B5 /* Murlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Murlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBD0C41C1DEF2122004963B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBD0C41E1DEF2122004963B5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FBD0C4201DEF2122004963B5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		FBD0C4221DEF2122004963B5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		FBD0C4241DEF2122004963B5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		FBD0C4271DEF2122004963B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FBD0C4291DEF2122004963B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FBD0C42C1DEF2122004963B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FBD0C42E1DEF2122004963B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD0C4381DEF2569004963B5 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FBD0C43E1DEF2569004963B5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBD0C43F1DEF2569004963B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD0C4421DEF2569004963B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBD0C4441DEF2569004963B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBD0C44E1DEF326B004963B5 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FBD0C4501DEF32B1004963B5 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FBD0C4521DEF32F7004963B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBD0C4541DEF56E7004963B5 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBCDC95A1DF033D400FA057D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBCDC95B1DF0340100FA057D /* MutableCollectionExtension.swift */,
+				FBCDC95D1DF0349600FA057D /* SequenceExtension.swift */,
+				FBCDC95F1DF392CE00FA057D /* CGSizeExtension.swift */,
+				FBCDC9631DF4CD9000FA057D /* ArrayExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FBD0C4101DEF2121004963B5 = {
 			isa = PBXGroup;
 			children = (
@@ -60,17 +82,67 @@
 		FBD0C41B1DEF2122004963B5 /* Murlan */ = {
 			isa = PBXGroup;
 			children = (
-				FBD0C41C1DEF2122004963B5 /* AppDelegate.swift */,
-				FBD0C41E1DEF2122004963B5 /* GameScene.sks */,
-				FBD0C4201DEF2122004963B5 /* Actions.sks */,
-				FBD0C4221DEF2122004963B5 /* GameScene.swift */,
-				FBD0C4241DEF2122004963B5 /* GameViewController.swift */,
-				FBD0C4261DEF2122004963B5 /* Main.storyboard */,
-				FBD0C4291DEF2122004963B5 /* Assets.xcassets */,
-				FBD0C42B1DEF2122004963B5 /* LaunchScreen.storyboard */,
-				FBD0C42E1DEF2122004963B5 /* Info.plist */,
+				FBCDC95A1DF033D400FA057D /* Extensions */,
+				FBD0C4341DEF2569004963B5 /* Assets */,
+				FBD0C4361DEF2569004963B5 /* Controller */,
+				FBD0C4391DEF2569004963B5 /* Model */,
+				FBD0C43A1DEF2569004963B5 /* Scenes */,
+				FBD0C43D1DEF2569004963B5 /* Supporting */,
+				FBD0C4401DEF2569004963B5 /* View */,
 			);
 			path = Murlan;
+			sourceTree = "<group>";
+		};
+		FBD0C4341DEF2569004963B5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FBD0C4521DEF32F7004963B5 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FBD0C4361DEF2569004963B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FBD0C4381DEF2569004963B5 /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FBD0C4391DEF2569004963B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBD0C44E1DEF326B004963B5 /* Card.swift */,
+				FBD0C4541DEF56E7004963B5 /* Deck.swift */,
+				FBCDC9611DF4BB7100FA057D /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBD0C43A1DEF2569004963B5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FBD0C4501DEF32B1004963B5 /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FBD0C43D1DEF2569004963B5 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				FBD0C43E1DEF2569004963B5 /* AppDelegate.swift */,
+				FBD0C43F1DEF2569004963B5 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		FBD0C4401DEF2569004963B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBD0C4411DEF2569004963B5 /* LaunchScreen.storyboard */,
+				FBD0C4431DEF2569004963B5 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +177,7 @@
 				TargetAttributes = {
 					FBD0C4181DEF2122004963B5 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5JWGM7A2T3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,11 +205,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD0C4281DEF2122004963B5 /* Main.storyboard in Resources */,
-				FBD0C41F1DEF2122004963B5 /* GameScene.sks in Resources */,
-				FBD0C42A1DEF2122004963B5 /* Assets.xcassets in Resources */,
-				FBD0C42D1DEF2122004963B5 /* LaunchScreen.storyboard in Resources */,
-				FBD0C4211DEF2122004963B5 /* Actions.sks in Resources */,
+				FBD0C44B1DEF2569004963B5 /* Info.plist in Resources */,
+				FBD0C44D1DEF2569004963B5 /* Main.storyboard in Resources */,
+				FBD0C4531DEF32F7004963B5 /* Assets.xcassets in Resources */,
+				FBD0C44C1DEF2569004963B5 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,29 +219,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD0C4231DEF2122004963B5 /* GameScene.swift in Sources */,
-				FBD0C4251DEF2122004963B5 /* GameViewController.swift in Sources */,
-				FBD0C41D1DEF2122004963B5 /* AppDelegate.swift in Sources */,
+				FBD0C4511DEF32B1004963B5 /* GameScene.swift in Sources */,
+				FBCDC95E1DF0349600FA057D /* SequenceExtension.swift in Sources */,
+				FBCDC9601DF392CE00FA057D /* CGSizeExtension.swift in Sources */,
+				FBD0C44A1DEF2569004963B5 /* AppDelegate.swift in Sources */,
+				FBCDC95C1DF0340100FA057D /* MutableCollectionExtension.swift in Sources */,
+				FBCDC9641DF4CD9000FA057D /* ArrayExtension.swift in Sources */,
+				FBD0C4551DEF56E7004963B5 /* Deck.swift in Sources */,
+				FBD0C4471DEF2569004963B5 /* GameViewController.swift in Sources */,
+				FBCDC9621DF4BB7100FA057D /* Player.swift in Sources */,
+				FBD0C44F1DEF326B004963B5 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBD0C4261DEF2122004963B5 /* Main.storyboard */ = {
+		FBD0C4411DEF2569004963B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FBD0C4271DEF2122004963B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FBD0C42B1DEF2122004963B5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBD0C42C1DEF2122004963B5 /* Base */,
+				FBD0C4421DEF2569004963B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FBD0C4431DEF2569004963B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD0C4441DEF2569004963B5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -270,7 +349,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Murlan/Info.plist;
+				DEVELOPMENT_TEAM = 5JWGM7A2T3;
+				INFOPLIST_FILE = "$(SRCROOT)/Murlan/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.Murlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,7 +362,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Murlan/Info.plist;
+				DEVELOPMENT_TEAM = 5JWGM7A2T3;
+				INFOPLIST_FILE = "$(SRCROOT)/Murlan/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.Murlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +390,7 @@
 				FBD0C4331DEF2122004963B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
