@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EDD63B03A537F08E5E3F417 /* Pods_Murlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC03345F7BAAF215CEDA578 /* Pods_Murlan.framework */; };
 		FBCDC95C1DF0340100FA057D /* MutableCollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95B1DF0340100FA057D /* MutableCollectionExtension.swift */; };
 		FBCDC95E1DF0349600FA057D /* SequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95D1DF0349600FA057D /* SequenceExtension.swift */; };
 		FBCDC9601DF392CE00FA057D /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95F1DF392CE00FA057D /* CGSizeExtension.swift */; };
@@ -24,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62BADFD04F8F653A660081C2 /* Pods-Murlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murlan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Murlan/Pods-Murlan.release.xcconfig"; sourceTree = "<group>"; };
+		9E1A7CD33483BC6AF2E0A767 /* Pods-Murlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murlan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Murlan/Pods-Murlan.debug.xcconfig"; sourceTree = "<group>"; };
+		BAC03345F7BAAF215CEDA578 /* Pods_Murlan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Murlan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB04CE3C1DF83E79004DEB96 /* Murlan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Murlan-Bridging-Header.h"; sourceTree = "<group>"; };
 		FBCDC95B1DF0340100FA057D /* MutableCollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableCollectionExtension.swift; sourceTree = "<group>"; };
 		FBCDC95D1DF0349600FA057D /* SequenceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceExtension.swift; sourceTree = "<group>"; };
 		FBCDC95F1DF392CE00FA057D /* CGSizeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
@@ -46,12 +51,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDD63B03A537F08E5E3F417 /* Pods_Murlan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E5B6A0E3F83FE4C2387AAB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAC03345F7BAAF215CEDA578 /* Pods_Murlan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16D3D45F3D0950C377421AEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E1A7CD33483BC6AF2E0A767 /* Pods-Murlan.debug.xcconfig */,
+				62BADFD04F8F653A660081C2 /* Pods-Murlan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FBCDC95A1DF033D400FA057D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +91,8 @@
 			children = (
 				FBD0C41B1DEF2122004963B5 /* Murlan */,
 				FBD0C41A1DEF2122004963B5 /* Products */,
+				16D3D45F3D0950C377421AEA /* Pods */,
+				0E5B6A0E3F83FE4C2387AAB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +157,7 @@
 			children = (
 				FBD0C43E1DEF2569004963B5 /* AppDelegate.swift */,
 				FBD0C43F1DEF2569004963B5 /* Info.plist */,
+				FB04CE3C1DF83E79004DEB96 /* Murlan-Bridging-Header.h */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -152,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBD0C4311DEF2122004963B5 /* Build configuration list for PBXNativeTarget "Murlan" */;
 			buildPhases = (
+				414776EA07C0EDE6D36CBEE2 /* [CP] Check Pods Manifest.lock */,
 				FBD0C4151DEF2122004963B5 /* Sources */,
 				FBD0C4161DEF2122004963B5 /* Frameworks */,
 				FBD0C4171DEF2122004963B5 /* Resources */,
+				42A12CFAD1F0299C3201F3D5 /* [CP] Embed Pods Frameworks */,
+				AD48AC1FB409096BD4CDD315 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,6 +207,7 @@
 					FBD0C4181DEF2122004963B5 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 5JWGM7A2T3;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -213,6 +243,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		414776EA07C0EDE6D36CBEE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42A12CFAD1F0299C3201F3D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Murlan/Pods-Murlan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD48AC1FB409096BD4CDD315 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Murlan/Pods-Murlan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBD0C4151DEF2122004963B5 /* Sources */ = {
@@ -347,28 +425,35 @@
 		};
 		FBD0C4321DEF2122004963B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1A7CD33483BC6AF2E0A767 /* Pods-Murlan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5JWGM7A2T3;
 				INFOPLIST_FILE = "$(SRCROOT)/Murlan/Supporting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.Murlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Murlan/Supporting/Murlan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		FBD0C4331DEF2122004963B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BADFD04F8F653A660081C2 /* Pods-Murlan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5JWGM7A2T3;
 				INFOPLIST_FILE = "$(SRCROOT)/Murlan/Supporting/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.Murlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Murlan/Supporting/Murlan-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
