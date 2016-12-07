@@ -110,7 +110,7 @@ final class Card: SKSpriteNode {
     }
 }
 
-private extension Card {
+extension Card {
     //MARK: - Helpers
     func flip() {
         if faceUp {
@@ -119,6 +119,7 @@ private extension Card {
             self.texture = frontTexture
         }
         faceUp = !faceUp
+        self.updateFocusIfNeeded()
     }
 }
 
