@@ -67,12 +67,10 @@ private extension GameScene {
     }
     
     func dealCards() {
-        for _ in deck.cards {
+        while true {
             for player in players {
                 player.addCard(card: deck.drawCard())
-                if deck.cards.count == 0 {
-                    return
-                }
+                if deck.cards.isEmpty { return }
             }
         }
     }
