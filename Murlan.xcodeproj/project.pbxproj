@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5EDD63B03A537F08E5E3F417 /* Pods_Murlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC03345F7BAAF215CEDA578 /* Pods_Murlan.framework */; };
 		FB04CE411DF893D1004DEB96 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB04CE401DF893D1004DEB96 /* GlobalConstants.swift */; };
+		FB04CE431DFA3D58004DEB96 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FB04CE421DFA3D58004DEB96 /* README.md */; };
 		FBCDC95C1DF0340100FA057D /* MutableCollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95B1DF0340100FA057D /* MutableCollectionExtension.swift */; };
 		FBCDC95E1DF0349600FA057D /* SequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95D1DF0349600FA057D /* SequenceExtension.swift */; };
 		FBCDC9601DF392CE00FA057D /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95F1DF392CE00FA057D /* CGSizeExtension.swift */; };
@@ -31,6 +32,7 @@
 		BAC03345F7BAAF215CEDA578 /* Pods_Murlan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Murlan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB04CE3C1DF83E79004DEB96 /* Murlan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Murlan-Bridging-Header.h"; sourceTree = "<group>"; };
 		FB04CE401DF893D1004DEB96 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		FB04CE421DFA3D58004DEB96 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FBCDC95B1DF0340100FA057D /* MutableCollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableCollectionExtension.swift; sourceTree = "<group>"; };
 		FBCDC95D1DF0349600FA057D /* SequenceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceExtension.swift; sourceTree = "<group>"; };
 		FBCDC95F1DF392CE00FA057D /* CGSizeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				FBD0C41B1DEF2122004963B5 /* Murlan */,
+				FB04CE421DFA3D58004DEB96 /* README.md */,
 				FBD0C41A1DEF2122004963B5 /* Products */,
 				16D3D45F3D0950C377421AEA /* Pods */,
 				0E5B6A0E3F83FE4C2387AAB3 /* Frameworks */,
@@ -314,6 +317,7 @@
 				FBD0C44A1DEF2569004963B5 /* AppDelegate.swift in Sources */,
 				FBCDC95C1DF0340100FA057D /* MutableCollectionExtension.swift in Sources */,
 				FB04CE411DF893D1004DEB96 /* GlobalConstants.swift in Sources */,
+				FB04CE431DFA3D58004DEB96 /* README.md in Sources */,
 				FBCDC9641DF4CD9000FA057D /* ArrayExtension.swift in Sources */,
 				FBD0C4551DEF56E7004963B5 /* Deck.swift in Sources */,
 				FBD0C4471DEF2569004963B5 /* GameViewController.swift in Sources */,
