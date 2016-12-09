@@ -10,6 +10,14 @@ import Foundation
 
 final class Player {
     fileprivate var cards: [Card] = []
+    
+    var name: String
+    var id: Int
+    
+    init(name: String, id: Int) {
+        self.name = name
+        self.id = id
+    }
 }
 
 extension Player {
@@ -28,6 +36,6 @@ extension Player {
 }
 
 private extension Card {
-    //MARK: - Private functions 
+    //MARK: - Private functions
     
 }

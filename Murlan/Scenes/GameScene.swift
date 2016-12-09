@@ -11,17 +11,19 @@ import SpriteKit
 final class GameScene: SKScene {
     
     fileprivate var deck: Deck!
+    fileprivate var players: [Player] = []
     
     override func didMove(to view: SKView) {
         setupScene()
+        beginGame()
     }
 }
 
 private extension GameScene {
-    //MARK: - Private functions
+    //MARK: - Scene setup
     func addDeck() {
         deck = Deck(shuffled: true, parentNode: self)
-       
+        
         guard let view = self.view, let cardSize = deck.cards.first?.size else {
             return
         }
@@ -34,16 +36,44 @@ private extension GameScene {
             addChild(card)
         }
     }
-
+    
     func addBackground() {
         let backgroundTexture = SKTexture(imageNamed: "background.pdf")
         let background = SKSpriteNode(texture: backgroundTexture, color: .clear, size: backgroundTexture.size())
         background.position = CGPoint(x: size.width/2, y: size.height/2)
         addChild(background)
     }
-
+    
+    func addPLayers() {
+        let humanPlayer = Player(name: "Me", id: 0)
+        let skynetPlayer = Player(name: "Skynet", id: 1)
+        let robocopPlayer = Player(name: "Robocop", id: 2)
+        let donaldTrump = Player(name: "Donald", id: 3)
+        players.append(contentsOf: [humanPlayer, skynetPlayer,robocopPlayer,donaldTrump])
+    }
+    
     func setupScene() {
         addBackground()
         addDeck()
+        addPLayers()
+    }
+}
+
+private extension GameScene {
+    //MARK: - Game Lifecycle
+    
+    func beginGame() {
+        dealCards()
+    }
+    
+    func dealCards() {
+        for _ in deck.cards {
+            for player in players {
+                player.addCard(card: deck.drawCard())
+                if deck.cards.count == 0 {
+                    return
+                }
+            }
+        }
     }
 }

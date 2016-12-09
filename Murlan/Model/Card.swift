@@ -9,9 +9,10 @@
 import SpriteKit
 
 enum CardLevel :CGFloat {
-    case board = 10
-    case moving = 100
-    case enlarged = 200
+    case board = 1
+    case card = 100
+    case moving = 200
+    case enlarged = 300
 }
 
 enum CardSuit: String {
@@ -96,8 +97,9 @@ final class Card: SKSpriteNode {
         self.frontTexture = cardValue.texture(suit: cardSuit)
         self.frontTexture.usesMipmaps = true
         self.parentNode = parentNode
-        super.init(texture: frontTexture, color: .clear, size: frontTexture.size().scaled(scale: 0.5))
+        super.init(texture: frontTexture, color: .clear, size: frontTexture.size().scaled(scale: GlobalConstants.Screen.cardScale))
         
+        self.zPosition = CardLevel.card.rawValue
         self.isUserInteractionEnabled = true
     }
     
@@ -114,26 +116,17 @@ extension Card {
     //MARK: - Helpers
     func flip() {
         if faceUp {
-            self.texture = backTexture
+            self.run(SKAction.setTexture(backTexture))
         } else {
-            self.texture = frontTexture
+            self.run(SKAction.setTexture(frontTexture))
         }
         faceUp = !faceUp
-        self.updateFocusIfNeeded()
     }
 }
 
 private extension Card {
     //MARK: - Animations
-    func dropAnimation(card: Card) {
-        card.removeAction(forKey: "pickup")
-        card.run(SKAction.scale(to: 1.0, duration: 0.25), withKey: "drop")
-    }
-    
-    func pickUpAnimation(card: Card) {
-        card.removeAction(forKey: "drop")
-        card.run(SKAction.scale(to: 1.3, duration: 0.15), withKey: "pickup")
-    }
+
 }
 
 extension Card {
@@ -154,8 +147,6 @@ extension Card {
                 if touch.tapCount > 1 {
                     card.flip()
                 }
-                pickUpAnimation(card: card)
-                card.zPosition = CardLevel.moving.rawValue
             }
         }
     }
@@ -164,8 +155,6 @@ extension Card {
         for touch in touches {
             let location = touch.location(in: self.parent!)
             if let card = atPoint(location) as? Card {
-                card.zPosition = CardLevel.board.rawValue
-                dropAnimation(card: card)
                 card.removeFromParent()
                 parentNode.addChild(card)
             }

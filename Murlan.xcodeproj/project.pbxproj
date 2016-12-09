@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5EDD63B03A537F08E5E3F417 /* Pods_Murlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC03345F7BAAF215CEDA578 /* Pods_Murlan.framework */; };
+		FB04CE411DF893D1004DEB96 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB04CE401DF893D1004DEB96 /* GlobalConstants.swift */; };
 		FBCDC95C1DF0340100FA057D /* MutableCollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95B1DF0340100FA057D /* MutableCollectionExtension.swift */; };
 		FBCDC95E1DF0349600FA057D /* SequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95D1DF0349600FA057D /* SequenceExtension.swift */; };
 		FBCDC9601DF392CE00FA057D /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCDC95F1DF392CE00FA057D /* CGSizeExtension.swift */; };
@@ -29,6 +30,7 @@
 		9E1A7CD33483BC6AF2E0A767 /* Pods-Murlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murlan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Murlan/Pods-Murlan.debug.xcconfig"; sourceTree = "<group>"; };
 		BAC03345F7BAAF215CEDA578 /* Pods_Murlan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Murlan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB04CE3C1DF83E79004DEB96 /* Murlan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Murlan-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB04CE401DF893D1004DEB96 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 		FBCDC95B1DF0340100FA057D /* MutableCollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableCollectionExtension.swift; sourceTree = "<group>"; };
 		FBCDC95D1DF0349600FA057D /* SequenceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceExtension.swift; sourceTree = "<group>"; };
 		FBCDC95F1DF392CE00FA057D /* CGSizeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FB04CE3F1DF893B9004DEB96 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FB04CE401DF893D1004DEB96 /* GlobalConstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FBCDC95A1DF033D400FA057D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +117,7 @@
 		FBD0C41B1DEF2122004963B5 /* Murlan */ = {
 			isa = PBXGroup;
 			children = (
+				FB04CE3F1DF893B9004DEB96 /* Helpers */,
 				FBCDC95A1DF033D400FA057D /* Extensions */,
 				FBD0C4341DEF2569004963B5 /* Assets */,
 				FBD0C4361DEF2569004963B5 /* Controller */,
@@ -302,6 +313,7 @@
 				FBCDC9601DF392CE00FA057D /* CGSizeExtension.swift in Sources */,
 				FBD0C44A1DEF2569004963B5 /* AppDelegate.swift in Sources */,
 				FBCDC95C1DF0340100FA057D /* MutableCollectionExtension.swift in Sources */,
+				FB04CE411DF893D1004DEB96 /* GlobalConstants.swift in Sources */,
 				FBCDC9641DF4CD9000FA057D /* ArrayExtension.swift in Sources */,
 				FBD0C4551DEF56E7004963B5 /* Deck.swift in Sources */,
 				FBD0C4471DEF2569004963B5 /* GameViewController.swift in Sources */,

@@ -33,7 +33,6 @@ final class Deck {
     }
     
     func drawCard() -> Card {
-        assert(!cards.isEmpty, "Deck was empty while drawing form it")
         return cards.removeFirst()
     }
     
